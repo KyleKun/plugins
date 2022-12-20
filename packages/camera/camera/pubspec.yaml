@@ -22,7 +22,10 @@ flutter:
 
 dependencies:
   camera_android:
-    path: ../camera_android
+    git:
+      url: https://github.com/MbIXjkee/plugins.git
+      ref: fix_fail_get_dimensions_on_profile_bakersoft
+      path: packages/camera/camera_android
   camera_avfoundation: ^0.9.7+1
   camera_platform_interface: ^2.2.0
   camera_web: ^0.3.0
